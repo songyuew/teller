@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to bottom right,
+    #4affde 0%,
+    #5b9dff 40%,
+    #ff34d2 100%
+  );
+  background-size: 200% 200%;
+  animation: movingGradient 5s linear infinite alternate;
+}
+
+body {
+  overflow: hidden;
+}
+
+.login-card {
+  height: 20vh;
+  width: 85vw;
+  margin: auto;
+  text-align: center;
+}
+
+.login-card h3 {
+  font-family: "Poppins", sans-serif;
+  color: #f4f4f4;
+}
+
+.login-card button {
+  font-family: "Poppins", sans-serif;
+  font-style: initial;
+  font-weight: 600;
+  font-size: 20px;
+  background: transparent;
+  border: #f4f4f4 1px solid;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 12px;
+  color: aliceblue;
+  transition: all 0.5s ease;
+}
+
+.login-card button:hover {
+  cursor: pointer;
+  background: rgba(80, 29, 29, 0.13);
+}
+
+@keyframes movingGradient {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
