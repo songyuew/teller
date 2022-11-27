@@ -6,6 +6,9 @@ from base64 import b64encode
 from colored import fg, bg, attr
 import pandas as pd
 import click
+import warnings
+
+warnings.filterwarnings("ignore", category=DeprecationWarning) 
 
 # use certificate and private key, replace with your own ones
 certificate_file = "PATH_TO_CERTIFICATE"
