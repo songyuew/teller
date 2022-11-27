@@ -32,7 +32,7 @@ Retrieve savings/checking/credit card account details from selected US financial
     pip install -r requirements.txt
     ```
 
-2.  Replace `PATH_TO CERTIFICATE` and `PATH_TO_PRIVATE_KEY` in `teller.py` with the paths of the certificate and private key you downloaded from Teller
+2.  Replace `PATH_TO_CERTIFICATE` and `PATH_TO_PRIVATE_KEY` in `teller.py` with the paths of the certificate and private key you downloaded from Teller
 
 3.  Replace `TELLER_APP_ID` with the `appId` of your own Teller instance
 
