@@ -58,6 +58,10 @@ Retrieve savings/checking/credit card account details from selected US financial
 
    ![transactions](img/txn.png)
 
+### Using MongoDB for Token Storage
+
+Simply change `<MONGODB_CONNECTION_STRING>` and `<DB_PASSWORD>` to your MongoDB connection string and password in `config.env`. Account access tokens will be inserted to database when a client completes authorization.
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.md` for more information.
