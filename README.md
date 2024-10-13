@@ -34,7 +34,7 @@ Retrieve savings/checking/credit card account details from selected US financial
 
 2.  Replace `PATH_TO_CERTIFICATE` and `PATH_TO_PRIVATE_KEY` in `teller.py` with the paths of the certificate and private key you downloaded from Teller
 
-3.  Replace `TELLER_APP_ID` with the `appId` of your own Teller instance
+3.  Replace `APPLICATION_ID` in `public/index.js` with the `appId` of your own Teller instance
 
 ### Authorize Your Bank Account
 
